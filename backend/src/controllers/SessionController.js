@@ -4,6 +4,7 @@ module.exports = {
 
     async create(request, response) {
         const { id } = request.body;
+        console.log(id);
 
         // A autenticação vai validar se a Ong existe
         const ong = await connection('ongs')

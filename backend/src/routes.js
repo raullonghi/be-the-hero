@@ -8,7 +8,7 @@ const SessionController = require('./controllers/SessionController');
 /**
  * Route: Session
  */
-routes.get('/sessions', SessionController.create);
+routes.post('/sessions', SessionController.create);
 
 /**
  * Route: Listar entidades
